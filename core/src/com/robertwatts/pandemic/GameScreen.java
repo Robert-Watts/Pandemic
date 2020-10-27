@@ -146,6 +146,8 @@ public class GameScreen extends ScreenAdapter {
     }
 
     private void newEnemy(){
+
+
         float x = (float) (0.5 * characterSize);
         float y = (float) (0.5 * characterSize);
 
@@ -155,6 +157,8 @@ public class GameScreen extends ScreenAdapter {
         if (playerY < playAreaWidth / 2){
             y = (float) (playAreaHeight - (1.5 * characterSize));
         }
+
+
 
 
         enemyLocations.add(new float[]{x, y});
